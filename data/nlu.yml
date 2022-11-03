@@ -1,0 +1,95 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - ola
+    - oi
+    - bom dia
+    - boa tarde
+    - boa noite
+    - hey
+    - eae
+
+- intent: goodbye
+  examples: |
+    - xau
+    - tchau
+    - falou
+    - flw
+    - boa
+    - valeu
+
+- intent: affirm
+  examples: |
+    - sim
+    - s
+    - certo
+    - ok
+    - acho que sim
+    - imagino que sim
+    - isso
+
+- intent: deny
+  examples: |
+    - não
+    - n
+    - nop
+    - nunca
+    - acho que não
+    - imagino que não
+
+- intent: duvida
+  examples: | 
+    - materias
+    - matérias
+
+- intent: agradece
+  examples: |
+    - valeu
+    - obrigado
+    - muito obrigado
+    - obg
+    
+- intent: ano1-materia
+  examples: |
+    - primeiro ano
+    - 1
+    - 1 ano
+
+- intent: ano2-materia
+  examples: |
+    - segundo ano
+    - 2
+    - 2 ano
+
+- intent: ano3-materia
+  examples: |
+    - terceiro ano
+    - 3
+    - 3 ano
+
+- intent: ano4-materia
+  examples: |
+    - quarto ano
+    - 4
+    - 4 ano
+
+- intent: ano5-materia
+  examples: |
+    - quinto ano
+    - 5
+    - 5 ano
+
+- intent: optativa-materia
+  examples: |
+    - optativas
+    - optativa
+    - materias optativas
+
+- intent: duvida2
+  examples: |
+    - livros principais
+    - livros
+
+  

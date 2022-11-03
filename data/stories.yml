@@ -1,0 +1,93 @@
+version: "3.1"
+
+stories:
+
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_duvida
+
+- story: ajuda_mat_1
+  steps:
+  - intent: duvida
+  - action: utter_duvida2
+  - intent: ano1-materia
+  - action: utter_ano1-materia
+  - action: utter_saber-mais
+  - intent: affirm
+  - action: utter_duvida
+  - or:
+    - intent: deny
+  - action: utter_agradece
+
+- story: ajuda_mat_2
+  steps:
+  - intent: duvida
+  - action: utter_duvida2
+  - intent: ano2-materia
+  - action: utter_ano2-materia
+  - action: utter_saber-mais
+  - intent: affirm
+  - action: utter_duvida
+  - or:
+    - intent: deny
+  - action: utter_agradece
+
+- story: ajuda_mat_3
+  steps:
+  - intent: duvida
+  - action: utter_duvida2
+  - intent: ano3-materia
+  - action: utter_ano3-materia
+  - action: utter_saber-mais
+  - intent: affirm
+  - action: utter_duvida
+  - or:
+    - intent: deny
+  - action: utter_agradece
+
+- story: ajuda_mat_4
+  steps:
+  - intent: duvida
+  - action: utter_duvida2
+  - intent: ano4-materia
+  - action: utter_ano4-materia
+  - action: utter_saber-mais
+  - intent: affirm
+  - action: utter_duvida
+  - or:
+    - intent: deny
+  - action: utter_agradece
+
+- story: ajuda_mat_5
+  steps:
+  - intent: duvida
+  - action: utter_duvida2
+  - intent: ano5-materia
+  - action: utter_ano5-materia
+  - action: utter_saber-mais
+  - intent: affirm
+  - action: utter_duvida
+  - or:
+    - intent: deny
+  - action: utter_agradece
+
+- story: optativ_mat
+  steps:
+  - intent: duvida
+  - action: utter_duvida2
+  - intent: optativa-materia
+  - action: utter_optativa
+  - action: utter_saber-mais
+  - intent: affirm
+  - action: utter_duvida
+  - or:
+    - intent: deny
+  - action: utter_agradece
+
+
+
+
+
+ 

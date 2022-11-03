@@ -1,0 +1,19 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVKaVlmSmJtbWxAP1ZTtE=": "utter_duvida",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVKaVlmSmJxDkDqhanGbEAYqZorw==": "action_listen",
+    "eJydjjEKwCAMRa/iAdqpm1cpRaSGEqhp0egi3r0B3S1u+fB4eXupiypvgGzsyfiQVqUdhqwHrfq4MTKQsClCEAZJJmt1BQCuA0dihmAaOmcYVLiU0dl/GZ2ddAxCIvht9Vb+oKiODz0ihPQ=": "utter_sem3-materia",
+    "eJydjjEKwCAMAL/iA9qpm18pRUINJVBt0egi/r2CLp0UtwQul9tTXkR6HUYFJ9NjpUh1UBYMStGWmzyjLWzw6ApDtqwsxeUQOXccgRmdquicoVOhQyQNYxmNnXR0QjyabTVQ/tBgzu+i4zs+hbCi6A==": "action_listen",
+    "eJydjjEKwCAMRa/iAdqtk1cpRaSGEqhp0egi3r0B3S1u+fB4eXupiypvgGzsyfiQVqUdhqwHrfq4MTKQsClCEAZJJmt1BQCuA0dihmAaOmcYVLiU0dl/GZ2ddAxCIvht9Vb+oKiODz0uhPU=": "utter_sem4-materia",
+    "eJydjjEKwCAMAL/iA9qtk18pRUINJVBt0egi/r2CLp0UtwQul9tTXkR6HUYFJ9NjpUh1UBYMStGWmzyjLWzw6ApDtqwsxeUQOXccgRmdquicoVOhQyQNYxmNnXR0QjyabTVQ/tBgzu+i4zs+hkKi6w==": "action_listen",
+    "eJydjjEKwCAMRa/iAdqhq1cpRaSGEqhp0egi3r0B3S1u+fB4eXupiypvgGzsyfiQVqUdhqwHrfq4MTKQsClCEAZJJmt1BQCuA0dihmAaOmcYVLiU0dl/GZ2ddAxCIvht9Vb+oKiODz0KhPI=": "utter_sem1-materia",
+    "eJydjjEKwCAMAL/iA9qhq18pRUINJVBt0egi/r2CLp0UtwQul9tTXkR6HUYFJ9NjpUh1UBYMStGWmzyjLWzw6ApDtqwsxeUQOXccgRmdquicoVOhQyQNYxmNnXR0QjyabTVQ/tBgzu+i4zs+hIyi4g==": "action_listen",
+    "eJydjjEKwCAMRa/iAdqxi1cpRaSGEqhp0egi3r0B3S1u+fB4eXupiypvgGzsyfiQVqUdhqwHrfq4MTKQsClCEAZJJmt1BQCuA0dihmAaOmcYVLiU0dl/GZ2ddAxCIvht9Vb+oKiODz06hPY=": "utter_sem5-materia",
+    "eJydjjEKwCAMAL/iA9qxi18pRUINJVBt0egi/r2CLp0UtwQul9tTXkR6HUYFJ9NjpUh1UBYMStGWmzyjLWzw6ApDtqwsxeUQOXccgRmdquicoVOhQyQNYxmNnXR0QjyabTVQ/tBgzu+i4zs+htSi7g==": "action_listen",
+    "eJydjjEKwCAMRa/iAdqlo1cpRaSGEqhp0egi3r0B3S1u+fB4eXupiypvgGzsyfiQVqUdhqwHrfq4MTKQsClCEAZJJmt1BQCuA0dihmAaOmcYVLiU0dl/GZ2ddAxCIvht9Vb+oKiODz0WhPM=": "utter_sem2-materia",
+    "eJydjjEKwCAMAL/iA9qlo18pRUINJVBt0egi/r2CLp0UtwQul9tTXkR6HUYFJ9NjpUh1UBYMStGWmzyjLWzw6ApDtqwsxeUQOXccgRmdquicoVOhQyQNYxmNnXR0QjyabTVQ/tBgzu+i4zs+hR6i5Q==": "action_listen"
+  }
+}

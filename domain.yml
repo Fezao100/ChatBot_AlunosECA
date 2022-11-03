@@ -1,0 +1,57 @@
+version: "3.1"
+
+intents:
+  - greet
+  - duvida
+  - duvida2
+  - agradece
+  - deny
+  - affirm
+  - ano1-materia
+  - ano2-materia
+  - ano3-materia
+  - ano4-materia
+  - ano5-materia
+  - optativa-materia
+
+responses:
+  utter_greet:
+  - text: "Hey estudante de ECA!"
+
+  utter_duvida:
+  - text: "Como posso te ajudar? Tenho informações sobre: MATÉRIAS DE ECA, OPTATIVAS, PRINCIPAIS LIVROS"
+
+  utter_duvida2:
+  - text: "De qual ano vc gostaria de saber as matérias?"
+
+  utter_ano1-materia:
+  - text: "As matérias do primeiro ano são: CDI I; FIS I; LFIS I; ICC; ICA; DES; FAM; CDI II; AL; FIS II; FIS II; CD; LCD; POO"
+
+  utter_ano2-materia:
+  - text: "As matérias do segundo ano são: CDI III; EP; ETM; ITPE; CE I; ESD; CJS; CDI IV; MAP; CHP; FT; CE II; LCE; RM"
+
+  utter_ano3-materia:
+  - text: "As matérias do terceiro ano são: CLP; MAQ; LMAQ; SIS; DEL; MICRO; PMN; RIC; MAT; SCON I; LCON I; CEL; LEL; SCOM"
+
+  utter_ano4-materia:
+  - text: "As matérias do quarto ano são: TAII; EI; LEI; SCON II; LCON II; PFAC; ADF; CPI; ISM; ACE; LACE; DGP; SEMB; RIN"
+
+  utter_ano5-materia:
+  - text: "As matérias do quinto ano são: As matérias do quinto ano são: Optativas e Estágio"
+
+  utter_optativa:
+  - text: "As matérias optativas são: EST: DSM; CNL; CA; LQG; LCD II; EM; ECONO; MC; CNC; SM; IEI; QG; ELE II; CDEA; SACON I; CD II; MAP; CDISC; CEE; SMICRO I; IAAPCON"
+
+  utter_duvida3:
+  - text: "De qual matéria vc gostaria de saber os livros?"
+
+  utter_saber-mais:
+  - text: "Gostaria de mais alguma informação?"
+
+  utter_agradece:
+  - text: "Ok, muito obrigado e espero ter ajudado! :)"
+
+
+session_config:
+  session_expiration_time: 5
+  carry_over_slots_to_new_session: true

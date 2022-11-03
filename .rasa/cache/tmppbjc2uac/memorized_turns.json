@@ -1,0 +1,19 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVKaVlmSmJtbWxAP1ZTtE=": "utter_duvida",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVKaVlmSmJxDkDqhanGbEAYqZorw==": "action_listen",
+    "eJydjjEKgDAMRa/SA+jk1quIlGCDBGwqbepSvLuBule65cPj5a31mUy9Et4OdqHI1tR2OIaA1nzjpCzIypaMSRlinWLNkRDl6TiKCCbX0DFDp8KXmzz8y/jYQUcnBDgucwD9Q6raXjyshO0=": "utter_ano3-materia",
+    "eJydjsEKgCAMQH/FD6hTN38lQkaOGOQMnV7Ef0+oSyfD2wZvb28tdVLlCpgN7EKetSrPYBgcavUuJ0VBbmyKGBpD3FbR6giIUjuOJILBPOiYoVNhUyYL/zJedtDRCQH2y+yg/aGfOZ+Ljm+7AYFMotM=": "action_listen",
+    "eJydjjEKgDAMRa/SA+jm1KuIlGCDBGwqbepSvLuBule65cPj5a31mUy9Et4OdqHI1tR2OIaA1nzjpCzIypaMSRlinWLNkRDl6TiKCCbX0DFDp8KXmzz8y/jYQUcnBDgucwD9Q6raXjy4hO4=": "utter_ano4-materia",
+    "eJydjsEKgCAMQH/FD6hbJ38lQkaOGOQMnV7Ef0+oSyfD2wZvb28tdVLlCpgN7EKetSrPYBgcavUuJ0VBbmyKGBpD3FbR6giIUjuOJILBPOiYoVNhUyYL/zJedtDRCQH2y+yg/aGfOZ+Ljm+7AYHeotY=": "action_listen",
+    "eJydjjEKgDAMRa/SA+jg2quIlGCDBGwqbepSvLuBule65cPj5a31mUy9Et4OdqHI1tR2OIaA1nzjpCzIypaMSRlinWLNkRDl6TiKCCbX0DFDp8KXmzz8y/jYQUcnBDgucwD9Q6raXjyUhOs=": "utter_ano1-materia",
+    "eJydjsEKgCAMQH/FD6hDV38lQkaOGOQMnV7Ef0+oSyfD2wZvb28tdVLlCpgN7EKetSrPYBgcavUuJ0VBbmyKGBpD3FbR6giIUjuOJILBPOiYoVNhUyYL/zJedtDRCQH2y+yg/aGfOZ+Ljm+7AYAoos0=": "action_listen",
+    "eJydjjEKgDAMRa/SA+jo0quIlGCDBGwqbepSvLuBule65cPj5a31mUy9Et4OdqHI1tR2OIaA1nzjpCzIypaMSRlinWLNkRDl6TiKCCbX0DFDp8KXmzz8y/jYQUcnBDgucwD9Q6raXjzEhO8=": "utter_ano5-materia",
+    "eJydjsEKgCAMQH/FD6hjF38lQkaOGOQMnV7Ef0+oSyfD2wZvb28tdVLlCpgN7EKetSrPYBgcavUuJ0VBbmyKGBpD3FbR6giIUjuOJILBPOiYoVNhUyYL/zJedtDRCQH2y+yg/aGfOZ+Ljm+7AYJwotk=": "action_listen",
+    "eJydjjEKgDAMRa/SA+ji2KuIlGCDBGwqbepSvLuBule65cPj5a31mUy9Et4OdqHI1tR2OIaA1nzjpCzIypaMSRlinWLNkRDl6TiKCCbX0DFDp8KXmzz8y/jYQUcnBDgucwD9Q6raXjyghOw=": "utter_ano2-materia",
+    "eJydjsEKgCAMQH/FD6hLR38lQkaOGOQMnV7Ef0+oSyfD2wZvb28tdVLlCpgN7EKetSrPYBgcavUuJ0VBbmyKGBpD3FbR6giIUjuOJILBPOiYoVNhUyYL/zJedtDRCQH2y+yg/aGfOZ+Ljm+7AYC6otA=": "action_listen"
+  }
+}
