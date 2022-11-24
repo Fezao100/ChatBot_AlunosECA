@@ -1,25 +1,5 @@
 version: "3.1"
-
 nlu:
-- intent: greet
-  examples: |
-    - ola
-    - oi
-    - bom dia
-    - boa tarde
-    - boa noite
-    - hey
-    - eae
-
-- intent: goodbye
-  examples: |
-    - xau
-    - tchau
-    - falou
-    - flw
-    - boa
-    - valeu
-
 - intent: affirm
   examples: |
     - sim
@@ -29,7 +9,6 @@ nlu:
     - acho que sim
     - imagino que sim
     - isso
-
 - intent: deny
   examples: |
     - não
@@ -38,58 +17,165 @@ nlu:
     - nunca
     - acho que não
     - imagino que não
-
-- intent: duvida
-  examples: | 
-    - materias
-    - matérias
-
-- intent: agradece
+    - nao
+- intent: duv-mat
   examples: |
-    - valeu
-    - obrigado
-    - muito obrigado
-    - obg
-    
+    - quais são as matérias do curso?
+    - quais são as matérias?
+    - matérias do curso
+    - materias do curso
+    - materias
 - intent: ano1-materia
   examples: |
+    - Quais são as matérias do primeiro ano?
     - primeiro ano
+    - primeiro
     - 1
     - 1 ano
-
 - intent: ano2-materia
   examples: |
+    - Quais são as matérias do segundo ano?
     - segundo ano
+    - segundo
     - 2
     - 2 ano
-
 - intent: ano3-materia
   examples: |
+    - Quais são as matérias do terceiro ano?
     - terceiro ano
+    - terceiro
     - 3
     - 3 ano
-
 - intent: ano4-materia
   examples: |
+    - Quais são as matérias do quarto ano?
     - quarto ano
+    - quarto
     - 4
     - 4 ano
-
 - intent: ano5-materia
   examples: |
+    - Quais são as matérias do quinto ano?
     - quinto ano
+    - quinto
     - 5
     - 5 ano
-
-- intent: optativa-materia
+- intent: duv-opt
   examples: |
-    - optativas
-    - optativa
-    - materias optativas
-
-- intent: duvida2
+    - Quais são as matérias optativas?
+    - Quais são as materias optativas?
+- intent: duv-inst
   examples: |
-    - livros principais
-    - livros
-
-  
+    - Quais são as instituições da faculdade?
+    - Quais são as instituições?
+    - Quais são as instituiçoes da faculdade?
+    - Quais são as instituiçoes?
+- intent: enactus
+  examples: |
+    - O que faz a Enactus?
+    - O que é a Enactus?
+    - Como funciona a Enactus?
+    - o que faz a enactus?
+- intent: gera
+  examples: |
+    - O que faz o GeraBixo?
+    - O que é o GeraBixo?
+    - Como funciona o GeraBixo?
+    - O que faz o Gera?
+    - O que é o Gera?
+    - Como funciona o Gera?
+    - O que faz o cursinho?
+    - O que é o cursinho?
+    - Como funciona o cursinho?
+- intent: dina
+  examples: |
+    - O que faz a Dinâmica?
+    - O que é a Dinâmica?
+    - Como funciona a Dinâmica?
+    - O que faz a Dina?
+    - O que é a Dina?
+    - Como funciona a Dina?
+- intent: gaia
+  examples: |
+    - O que faz a gaia?
+    - O que é a gaia?
+    - Como funciona a gaia?
+- intent: sme
+  examples: |
+    - O que faz a Semana da Engenharia?
+    - O que é a Semana da Engenharia?
+    - Como funciona a Semana da Engenharia?
+- intent: rede
+  examples: |
+    - O que faz a Rede?
+    - O que é a Rede?
+    - Como funciona a Rede?
+- intent: att
+  examples: |
+    - O que faz a Atlética?
+    - O que é a Atlética?
+    - Como funciona a Atlética?
+- intent: baja
+  examples: |
+    - O que faz a Baja?
+    - O que é a Baja?
+    - Como funciona a Baja?
+- intent: pet
+  examples: |
+    - O que faz a Pet?
+    - O que é a Pet?
+    - Como funciona a Pet?
+- intent: ca
+  examples: |
+    - O que faz a CA?
+    - O que é a CA?
+    - Como funciona a CA?
+- intent: tromba
+  examples: |
+    - O que faz a Tromba?
+    - O que é a Tromba?
+    - Como funciona a Tromba?
+- intent: aovivo
+  examples: |
+    - O que faz a Ao Vivo?
+    - O que é a Ao Vivo?
+    - Como funciona a Ao Vivo?
+- intent: entrar_inst
+  examples: |
+    - Como entrar em uma instuição?
+    - Como eu faço para partcipar da Enactus?
+    - Como eu faço para partcipar do GeraBixo?
+    - Como eu faço para partcipar da Dinâmica?
+    - Como eu faço para partcipar do Gaia?
+    - Como eu faço para partcipar da Tromba?
+    - Como eu faço para partcipar do Baja?
+    - Como eu faço para partcipar do Ao Vivo?
+    - Como eu faço para partcipar da Semana?
+    - Como eu faço para partcipar da Atlética?
+    - Como eu faço para partcipar do PET?
+    - Como eu faço para partcipar do CA?
+    - Como eu faço para partcipar da Rede?
+- intent: duv-hors
+  examples: |
+    - Quais são as horas complementares do curso?
+    - Quais são os grupos de horas complementares?
+- intent: extens
+  examples: |
+    - O que são as horas de extensão?
+    - Como cumprir as horas de extensão?
+- intent: tec
+  examples: |
+    - O que são as horas técnicas?
+    - Como cumprir as horas técnicas?
+- intent: pesq
+  examples: |
+    - O que são as horas de pesquisa?
+    - Como cumprir as horas de pesquisa?
+- intent: cult
+  examples: |
+    - O que são as horas de cultura?
+    - Como cumprir as horas de cultura?
+- intent: socio
+  examples: |
+    - O que são as horas sociais?
+    - Como cumprir as horas sociais?

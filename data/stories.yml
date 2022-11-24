@@ -2,92 +2,168 @@ version: "3.1"
 
 stories:
 
-- story: greet
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_duvida
-
 - story: ajuda_mat_1
   steps:
-  - intent: duvida
-  - action: utter_duvida2
+  - intent: duv-mat
+  - action: utter_duv-mat
   - intent: ano1-materia
   - action: utter_ano1-materia
-  - action: utter_saber-mais
-  - intent: affirm
-  - action: utter_duvida
-  - or:
-    - intent: deny
-  - action: utter_agradece
 
 - story: ajuda_mat_2
   steps:
-  - intent: duvida
-  - action: utter_duvida2
+
+  - intent: duv-mat
+  - action: utter_duv-mat
   - intent: ano2-materia
   - action: utter_ano2-materia
-  - action: utter_saber-mais
-  - intent: affirm
-  - action: utter_duvida
-  - or:
-    - intent: deny
-  - action: utter_agradece
 
 - story: ajuda_mat_3
   steps:
-  - intent: duvida
-  - action: utter_duvida2
+  - intent: duv-mat
+  - action: utter_duv-mat
   - intent: ano3-materia
   - action: utter_ano3-materia
-  - action: utter_saber-mais
-  - intent: affirm
-  - action: utter_duvida
-  - or:
-    - intent: deny
-  - action: utter_agradece
 
 - story: ajuda_mat_4
   steps:
-  - intent: duvida
-  - action: utter_duvida2
+  - intent: duv-mat
+  - action: utter_duv-mat
   - intent: ano4-materia
   - action: utter_ano4-materia
-  - action: utter_saber-mais
-  - intent: affirm
-  - action: utter_duvida
-  - or:
-    - intent: deny
-  - action: utter_agradece
 
 - story: ajuda_mat_5
   steps:
-  - intent: duvida
-  - action: utter_duvida2
+  - intent: duv-mat
+  - action: utter_duv-mat
   - intent: ano5-materia
   - action: utter_ano5-materia
-  - action: utter_saber-mais
-  - intent: affirm
-  - action: utter_duvida
-  - or:
-    - intent: deny
-  - action: utter_agradece
+
+- story: ajuda_mat_1-dir
+  steps:
+  - intent: ano1-materia
+  - action: utter_ano1-materia
+
+- story: ajuda_mat_2-dir
+  steps:
+  - intent: ano1-materia
+  - action: utter_ano1-materia
+
+- story: ajuda_mat_3-dir
+  steps:
+  - intent: ano1-materia
+  - action: utter_ano1-materia
+
+- story: ajuda_mat_4-dir
+  steps:
+  - intent: ano1-materia
+  - action: utter_ano1-materia
+
+- story: ajuda_mat_5-dir
+  steps:
+  - intent: ano5-materia
+  - action: utter_ano5-materia
 
 - story: optativ_mat
   steps:
-  - intent: duvida
-  - action: utter_duvida2
-  - intent: optativa-materia
-  - action: utter_optativa
-  - action: utter_saber-mais
-  - intent: affirm
-  - action: utter_duvida
-  - or:
-    - intent: deny
-  - action: utter_agradece
+  - intent: duv-opt
+  - action: utter_duv-opt
 
+- story: inst_geral
+  steps:
+  - intent: duv-inst
+  - action: utter_duv-inst
 
+- story: inst_enactus
+  steps:
+  - intent: enactus
+  - action: utter_enactus
 
+- story: inst_gera
+  steps:
+  - intent: gera
+  - action: utter_gera
 
+- story: inst_dina
+  steps:
+  - intent: dina
+  - action: utter_dina
 
- 
+- story: inst_gaia
+  steps:
+  - intent: gaia
+  - action: utter_gaia
+
+- story: inst_sme
+  steps:
+  - intent: sme
+  - action: utter_sme
+
+- story: inst_rede
+  steps:
+  - intent: rede
+  - action: utter_rede
+
+- story: inst_att
+  steps:
+  - intent: att
+  - action: utter_att
+
+- story: inst_baja
+  steps:
+  - intent: baja
+  - action: utter_baja
+
+- story: inst_pet
+  steps:
+  - intent: pet
+  - action: utter_pet
+
+- story: inst_ca
+  steps:
+  - intent: ca
+  - action: utter_ca
+
+- story: inst_tromba
+  steps:
+  - intent: tromba
+  - action: utter_tromba
+
+- story: inst_aovivo
+  steps:
+  - intent: aovivo
+  - action: utter_aovivo
+
+- story: inst_entrar
+  steps:
+  - intent: entrar_inst
+  - action: utter_entrar_inst
+
+- story: hors_comp
+  steps:
+  - intent: duv-hors
+  - action: utter_duv-hors
+
+- story: hors_extens
+  steps:
+  - intent: extens
+  - action: utter_duv-extens
+
+- story: hors_tec
+  steps:
+  - intent: tec
+  - action: utter_duv-tec
+
+- story: hors_socio
+  steps:
+  - intent: socio
+  - action: utter_duv-socio
+
+- story: hors_cult
+  steps:
+  - intent: cult
+  - action: utter_duv-cult
+
+- story: hors_pesq
+  steps:
+  - intent: pesq
+  - action: utter_duv-pesq

@@ -12,4 +12,3 @@ stories:
       amazing
     intent: mood_greet
   - action: utter_greet
-
