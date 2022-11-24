@@ -167,3 +167,23 @@ stories:
   steps:
   - intent: pesq
   - action: utter_duv-pesq
+
+- story: ic
+  steps:
+  - intent: ic
+  - action: utter_duv-ic
+
+- story: tranca
+  steps:
+  - intent: tranca
+  - action: utter_duv-tranca
+
+- story: moradia
+  steps:
+  - intent: moradia
+  - action: utter_duv-moradia
+
+- story: carteirinha
+  steps:
+  - intent: carteirinha
+  - action: utter_duv-carteirinha

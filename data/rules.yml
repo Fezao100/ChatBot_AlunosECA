@@ -1,8 +1,18 @@
 version: "3.1"
 
-#rules:
+rules:
 
-#- rule: Say goodbye anytime the user says goodbye
- # steps:
-  #- intent: goodbye
-  #- action: utter_greet
+- rule: Responder olá
+  steps:
+  - intent: olar
+  - action: utter_olar
+
+- rule: Responder obrigado
+  steps:
+  - intent: agradece
+  - action: utter_agradece
+
+- rule: Responder tchau
+  steps:
+  - intent: xau
+  - action: utter_xau

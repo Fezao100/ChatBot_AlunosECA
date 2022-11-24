@@ -30,9 +30,22 @@ intents:
 - socio
 - tec
 - tromba
+- ic
+- tranca
+- carteirinha
+- moradia
+- olar
+- xau
+- agradece
 responses:
+  utter_olar:
+  - text: 'Hey estudante de Eca, como posso te ajudar?'
+  utter_agradece:
+  - text: 'Foi um prazer ajudar! :)'
+  utter_xau:
+  - text: 'Até a próxima! :)'
   utter_duv-mat:
-  - text: De qual ano vc gostaria de saber as matérias?
+  - text: 'De qual ano vc gostaria de saber as matérias?'
   utter_ano1-materia:
   - text: 'As matérias do primeiro ano são: CDI I; FIS I; LFIS I; ICC; ICA; DES; FAM; CDI II; AL; FIS II; FIS II; CD; LCD; POO'
   utter_ano2-materia:
@@ -46,47 +59,53 @@ responses:
   utter_duv-opt:
   - text: 'As matérias optativas são: EST: DSM; CNL; CA; LQG; LCD II; EM; ECONO; MC; CNC; SM; IEI; QG; ELE II; CDEA; SACON I; CD II; MAP; CDISC; CEE; SMICRO I; IAAPCON'
   utter_duv-inst:
-  - text: 'As instituições da faculdade são: Enactus, Gerabixo, Dinâmica, Ao Vivo, Gaia, Rede, Atlética, Baja, PET, Trombateria, CA e a Semana da Engenharia'
+  - text: 'As instituições da faculdade são grupos de alunos que desempenham projetos específicos dependendo do objetivo da instituição em questão. Dentro da Unesp Sorocaba temos a Enactus, Gerabixo, Dinâmica, Ao Vivo, Gaia, Rede, Atlética, Baja, PET, Trombateria, CA e a Semana da Engenharia'
   utter_enactus:
-  - text: A Enactus UNESP Sorocaba visa impactar positivamente o mundo a nossa volta por meio do empreendedorismo, da responsabilidade social e da sustentabilidade.
+  - text: 'A Enactus UNESP Sorocaba visa impactar positivamente o mundo a nossa volta por meio do empreendedorismo, da responsabilidade social e da sustentabilidade.'
   utter_gera:
-  - text: O Cursinho Pré-Vestibular GeraBixo é um cursinho popular comunitário gratuito no qual as aulas são ministradas por alunos da Unesp Sorocaba.
+  - text: 'O Cursinho Pré-Vestibular GeraBixo é um cursinho popular comunitário gratuito no qual as aulas são ministradas por alunos da Unesp Sorocaba.'
   utter_dina:
   - text: 'A Dinâmica Engenharia Júnior é composta por alunos selecionados dos cursos de graduação em Engenharia Ambiental e Engenharia de Controle e Automação, prestando serviços em ambas as áreas. '
   utter_aovivo:
-  - text: O Ao Vivo e em Cores é uma instituição da UNESP Sorocaba que tem como principal objetivo a revitalização de lugares de convívio público ou privado, normalmente relacionados ao infantil.
+  - text: 'O Ao Vivo e em Cores é uma instituição da UNESP Sorocaba que tem como principal objetivo a revitalização de lugares de convívio público ou privado, normalmente relacionados ao infantil.'
   utter_gaia:
-  - text: O Gaia têm por objetivos contribuir para mobilizar a cidade de Sorocaba com as causas ambientais e sociais e desenvolver projetos de extensão universitária com o caráter técnico.
+  - text: 'O Gaia têm por objetivos contribuir para mobilizar a cidade de Sorocaba com as causas ambientais e sociais e desenvolver projetos de extensão universitária com o caráter técnico.'
   utter_rede:
-  - text: A ReaUSo têm como objetivo despertar a consciência ecológica de todos os tipos de público de modo a fazê-los sentir parte de seu próprio meio ambiente.
+  - text: 'A ReaUSo têm como objetivo despertar a consciência ecológica de todos os tipos de público de modo a fazê-los sentir parte de seu próprio meio ambiente.'
   utter_att:
-  - text: A atlética têm como objetivos promover treinos esportivos para os estudantes e organizar amistosos e campeonatos.
+  - text: 'A atlética têm como objetivos promover treinos esportivos para os estudantes e organizar amistosos e campeonatos.'
   utter_baja:
-  - text: O baja visa elaborar um protótipo de um veículo dentro dos padrões exigidos que seja seguro, facilmente transportável, de simples manutenção e operação.
+  - text: 'O baja visa elaborar um protótipo de um veículo dentro dos padrões exigidos que seja seguro, facilmente transportável, de simples manutenção e operação.'
   utter_pet:
-  - text: O PET busca propiciar aos alunos condições para a realização de atividades extracurriculares, que complementem a sua formação acadêmica, procurando atender mais plenamente às necessidades da graduação e aprofundar os conteúdos do curso.
+  - text: 'O PET busca propiciar aos alunos condições para a realização de atividades extracurriculares, que complementem a sua formação acadêmica, procurando atender mais plenamente às necessidades da graduação e aprofundar os conteúdos do curso.'
   utter_tromba:
-  - text: A Trombateria é um grupo de alunos que tocam instrumentos de percussão em eventos da faculdade
+  - text: 'A Trombateria é um grupo de alunos que tocam instrumentos de percussão em eventos da faculdade.'
   utter_ca:
-  - text: O Centro Acadêmico (CA) é uma entidade que representa todos os estudantes de um curso e dele deve manter com seus estudantes um canal direto e permanente de contato, realizando discussões, debates e reuniões da maneira mais democrática e aberta possível.
+  - text: 'O Centro Acadêmico (CA) é uma entidade que representa todos os estudantes de um curso e dele deve manter com seus estudantes um canal direto e permanente de contato, realizando discussões, debates e reuniões da maneira mais democrática e aberta possível.'
   utter_sme:
-  - text: A Semana da Engenharia é um importante evento que ocorre todo ano com plaestras, cursos e rodas de discussões. Os alunos envolvido ajudam na organização da SME
+  - text: 'A Semana da Engenharia é um importante evento que ocorre todo ano com plaestras, cursos e rodas de discussões. Os alunos envolvido ajudam na organização da SME.'
   utter_entrar_inst:
-  - text: A admissão dos alunos nas instiuições da faculdade ocorre por meio dos processos seletivos, divulgados nas redes scocias de cada instuição esporadicamente
-  utter_agradece:
-  - text: Ok, muito obrigado e espero ter ajudado! :)
+  - text: 'A admissão dos alunos nas instiuições da faculdade ocorre por meio dos processos seletivos, divulgados nas redes scocias de cada instuição esporadicamente.'
   utter_duv-hors:
-  - text: 'Dentros das horas complementares temos os grupos de horas de: Extensão, Formação Técnica, Artístico-Culturais e Esportivas, Pesquisa, Desenvolvimento e Inovação'
+  - text: 'As horas complementares são atividades além das matérias que os alunos devem cumprir para se formar. Dentro das horas complementares temos os grupos de horas de: Extensão, Formação Técnica, Artístico-Culturais e Esportivas, Pesquisa, Desenvolvimento e Inovação e Sociais'
   utter_duv-extens:
-  - text: A Extensão na Educação Superior Brasileira, conforme o Art. 3º da Resolução CNE/CES nº 7, de 18 de dezembro de 2018, é a atividade que se integra à matriz curricular e à organização da pesquisa, constituindo-se em processo interdisciplinar, político educacional, cultural, científico, tecnológico, que promove a interação transformadora entre as instituições de ensino superior e os outros setores da sociedade, por meio da produção e da aplicação do conhecimento, em articulação permanente com o ensino e a pesquisa.
+  - text: 'As horas de extensão são serviços que a instituição oferece para a comunidade externa. Ou seja, professores e estudantes organizam atividades para que a população em geral participe. - 405 horas'
   utter_duv-tec:
-  - text: Frequência e aprovação em cursos de língua estrangeira; Participação em competições e eventos tecnológicos oficiais; Participação em cursos extraordinários ou complementares da sua área de formação; Participação 37 em palestras técnicas, congressos e seminários técnico-científicos da área do curso na qualidade de ouvinte; Participação na organização de cursos, exposições e seminários de caráter reconhecidamente acadêmico;
+  - text: 'As horas técnicas são atividades que desenvolvam o aluno em outras áreas relacionadas ao curso, dentre essas atividades podem ser citadas: cursos de língua estrangeira, participação em competições e eventos tecnológicos oficiais, em cursos relacionados à sua área de formação, em palestras técnicas e na organização de cursos, congressos e seminários técnico-científicos, exposições e seminários de caráter reconhecidamente acadêmico. - 60 horas'
   utter_duv-pesq:
-  - text: Atividades que promovam a interação do aluno e a aquisição do conhecimento no âmbito da pesquisa, desenvolvimento e inovação tecnológica (P&D&I). - 60 horas
+  - text: 'As horas de pesquisa são atividades que promovam a interação do aluno e a aquisição do conhecimento no âmbito da pesquisa, desenvolvimento e inovação tecnológica (P&D&I). - 60 horas'
   utter_duv-cult:
-  - text: Atividades que aprimorem a sensibilidade do aluno, sua criatividade e capacidade de expressão em múltiplas linguagens, bem como que estimulem uma relação saudável com o seu corpo.
+  - text: 'As horas artístico-culturais são atividades que aprimorem a sensibilidade do aluno, sua criatividade e capacidade de expressão em múltiplas linguagens, bem como que estimulem uma relação saudável com o seu corpo. - 60 horas'
   utter_duv-socio:
-  - text: Atividades presenciais que envolvam interações do aluno com a sociedade, em suas mais variadas formas de expressão, colocando-o em contato com suas necessidades contemporâneas.
+  - text: 'As horas sociais são atividades presenciais que envolvam interações do aluno com a sociedade, em suas mais variadas formas de expressão, colocando-o em contato com suas necessidades contemporâneas. - 60 horas'
+  utter_duv-ic:
+  - text: 'A iniciação científica é um projeto que utiliza metodologia científica para aprofundar o estudo em determinadas áreas. Para conseguir uma IC, é necessário conversar com o professor que trabalha na área de interesse para verificar se ele está disponível para te orientar. Caso seja possível iniciar a IC, você passará por alguns processos de inscrição e o trabalho se inicia. Lembrando que deverá será entregue um relatório parcial após 6 meses e um final após o final da IC que será avaliado pelos professores'
+  utter_duv-tranca:
+  - text: 'Para realizar o trancamento de uma disciplina basta acessar o Sisgrad, ir para aba de -Solicitações- e em seguida para -Trancamento de Disciplina-. Depois, basta selecionar a disciplina que deseja trancar, colocar sua justificativa e fazer a solicitação de trancamento que passará por uma análise pelo coordenador do curso.'
+  utter_duv-carteirinha:
+  - text: 'Para conseguir sua carteirinha de estudante, basta ir até a biblioteca da faculdade e fazer a solicitação da carteirinha. O responsável te pedirá algumas informações pessoais e uma foto 3x4, após algum tempo sua carteirinha estará pronta e bastará retirá-la na faculdade.'
+  utter_duv-moradia:
+  - text: 'As principais opções de moradia para os estudantes da Unesp Sorocaba são repúblicas e condomínios. As repúblicas são casas onde estudantes dividem as contas da casa e moram juntos, em Sorocaba atualmente existem 10 repúblicas sendo oito masculinas, uma feminina e uma mista. Os condomínios são opções mais caras de moradia e os mais frequentados pelos estudantes da Unesp são o Viva Verde, o Smart e o Encanto'
 session_config:
   session_expiration_time: 5
   carry_over_slots_to_new_session: true
@@ -118,3 +137,6 @@ actions:
 - utter_rede
 - utter_sme
 - utter_tromba
+- utter_duv-ic
+- utter_duv-carteirinha
+- utter_duv-moradia

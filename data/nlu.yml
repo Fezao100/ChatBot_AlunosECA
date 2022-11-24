@@ -1,5 +1,24 @@
 version: "3.1"
 nlu:
+- intent: olar
+  examples: |
+    - ola
+    - oi
+    - oii
+    - olá
+    - eae
+    - e ae
+    - salve
+    - bom dia
+    - boa tarde
+    - boa noite
+- intent: xau
+  examples: |
+    - xau
+    - tchau
+    - falou
+    - flw
+    - adeus
 - intent: affirm
   examples: |
     - sim
@@ -18,6 +37,14 @@ nlu:
     - acho que não
     - imagino que não
     - nao
+- intent: agradece
+  examples: |
+    - obrigado
+    - valeu
+    - ty
+    - muito obrigado
+    - obrigada
+    - thanks
 - intent: duv-mat
   examples: |
     - quais são as matérias do curso?
@@ -143,18 +170,42 @@ nlu:
 - intent: entrar_inst
   examples: |
     - Como entrar em uma instuição?
-    - Como eu faço para partcipar da Enactus?
-    - Como eu faço para partcipar do GeraBixo?
-    - Como eu faço para partcipar da Dinâmica?
-    - Como eu faço para partcipar do Gaia?
-    - Como eu faço para partcipar da Tromba?
-    - Como eu faço para partcipar do Baja?
-    - Como eu faço para partcipar do Ao Vivo?
-    - Como eu faço para partcipar da Semana?
-    - Como eu faço para partcipar da Atlética?
-    - Como eu faço para partcipar do PET?
-    - Como eu faço para partcipar do CA?
-    - Como eu faço para partcipar da Rede?
+    - Como eu faço para paricipar da Enactus?
+    - Como eu faço para participar do GeraBixo?
+    - Como eu faço para participar da Dinâmica?
+    - Como eu faço para participar do Gaia?
+    - Como eu faço para participar da Tromba?
+    - Como eu faço para participar do Baja?
+    - Como eu faço para participar do Ao Vivo?
+    - Como eu faço para participar da Semana?
+    - Como eu faço para participar da Atlética?
+    - Como eu faço para participar do PET?
+    - Como eu faço para participar do CA?
+    - Como eu faço para participar da Rede?
+    - Como eu faço a incrição da Enactus?
+    - Como eu faço a incrição do GeraBixo?
+    - Como eu faço a incrição da Dinâmica?
+    - Como eu faço a incrição do Gaia?
+    - Como eu faço a incrição da Tromba?
+    - Como eu faço a incrição do Baja?
+    - Como eu faço a incrição do Ao Vivo?
+    - Como eu faço a incrição da Semana?
+    - Como eu faço a incrição da Atlética?
+    - Como eu faço a incrição do PET?
+    - Como eu faço a incrição do CA?
+    - Como eu faço a incrição da Rede?
+    - Como eu faço para me inscrever na Enactus?
+    - Como eu faço para me inscrever no GeraBixo?
+    - Como eu faço para me inscrever na Dinâmica?
+    - Como eu faço para me inscrever no Gaia?
+    - Como eu faço para me inscrever na Tromba?
+    - Como eu faço para me inscrever no Baja?
+    - Como eu faço para me inscrever no Ao Vivo?
+    - Como eu faço para me inscrever na Semana?
+    - Como eu faço para me inscrever na Atlética?
+    - Como eu faço para me inscrever no PET?
+    - Como eu faço para me inscrever no CA?
+    - Como eu faço para me inscrever na Rede?
 - intent: duv-hors
   examples: |
     - Quais são as horas complementares do curso?
@@ -167,15 +218,54 @@ nlu:
   examples: |
     - O que são as horas técnicas?
     - Como cumprir as horas técnicas?
+    - O que são as horas de formação técnica?
+    - Como cumprir as horas de formação técnica?
 - intent: pesq
   examples: |
     - O que são as horas de pesquisa?
     - Como cumprir as horas de pesquisa?
+    - O que são as horas de Desenvolvimento?
+    - Como cumprir as horas de Desenvolvimento?
+    - O que são as horas de Inovação?
+    - Como cumprir as horas de Inovação?
+    - O que são as horas de Pesquisa, Desenvolvimento e Inovação?
+    - Como cumprir as horas de Pesquisa, Desenvolvimento e Inovação?
 - intent: cult
   examples: |
     - O que são as horas de cultura?
     - Como cumprir as horas de cultura?
+    - O que são as horas esportivas?
+    - Como cumprir as horas de esportivas?
+    - O que são as horas artísticas?
+    - Como cumprir as horas astísticas?
+    - O que são as horas Artístico-Culturais e Esportivas?
+    - Como cumprir as horas Artístico-Culturais e Esportivas?
 - intent: socio
   examples: |
     - O que são as horas sociais?
     - Como cumprir as horas sociais?
+- intent: ic
+  examples: |
+    - O que é iniciação científica?
+    - Como eu faço uma iniciação científica?
+    - Como eu consigo fazer uma iniciação científica?
+    - O que é ic?
+    - Como eu faço uma ic?
+    - Como eu consigo fazer uma ic?
+- intent: tranca
+  examples: |
+    - Como eu faço para trancar uma disciplina?
+    - Como trancar uma matéria?
+    - Como trancar uma disciplina?
+- intent: carteirinha
+  examples: |
+    - Como eu faço para fazer minha carteirinha da faculdade?
+    - Como fazer a carteirinha da faculdade?
+    - Onde eu posso fazer a carteirinha da faculdade?
+    - Onde fazer a carteirinha da faculdade?
+- intent: moradia
+  examples: |
+    - Onde morar em Sorocaba?
+    - Quais as moradias em Sorocaba?
+    - Onde eu posso morar?
+    - Quais as opções de moradia em sorocaba?
