@@ -50,5 +50,5 @@ Chatbot: A iniciação científica é um projeto que utiliza metodologia cientí
 ```
 
 ---
-🔹 Desenvolvido para ajudar os novos estudantes de ECA da UNESP Sorocaba! 😊
+🔹 Desenvolvido para ajudar os novos estudantes de ECA da UNESP Sorocaba! 
 
